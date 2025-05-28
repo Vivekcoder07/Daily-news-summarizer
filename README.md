@@ -161,20 +161,4 @@ A Flask-based web application that scrapes news from public websites, summarizes
 *   **Error Handling:** While basic error handling is in place, more comprehensive error logging and user feedback for background tasks (scraping, summarization) can be improved.
 *   **Bookmark Persistence:** Bookmarks are currently session-based. For full persistence, they should be stored in the database linked to user accounts (similar to `UserReadArticle`).
 
-## Future Enhancements (TODO)
-
-*   **Database-backed Bookmarks:** Store bookmarks per user in the database.
-*   **Advanced Personalization:** Implement more sophisticated content recommendation (e.g., collaborative filtering, content-based similarity beyond keywords).
-*   **Topic Modeling & Discovery:** Automatically categorize articles and suggest new topics to users.
-*   **Source Management:** Allow users to add/remove/manage their own RSS feeds or news sources.
-*   **Reading Modes:** Different themes (e.g., dark mode, light mode), focus mode for reading.
-*   **Interactive Elements:** In-article highlighting, comments (if desired).
-*   **Text-to-Speech (TTS):** Read-aloud functionality for articles.
-*   **Search & Filtering:** Advanced search within fetched articles (by keyword, date range, source, read status).
-*   **Gamification:** Subtle points or badges for reading streaks or discovering new topics.
-*   **Comprehensive Testing:** Increase unit and integration test coverage.
-*   **Deployment:** Dockerize the application and provide deployment scripts/instructions for platforms like Heroku, AWS, or DigitalOcean.
-
----
-
 *This README was last updated on May 28, 2025, by an AI assistant based on project analysis.* Please review and customize it further to accurately reflect your project details and future vision. 
